@@ -40,7 +40,7 @@ if (!empty($_GET['gamer_id'])) {
 }
 ?>
 <h1>Gamer Information Collection <a href="view-gamers.php" title="View Other Gamers"><img src="images/GamerTag.png"></a></h1>
-<?php if($_GET['made']){echo $_GET['made'];}?>
+
 <form action="save-gamer.php" method="post" enctype="multipart/form-data">
     <label for="firstName" >First Name:</label>
     <div class="input">

@@ -94,8 +94,7 @@ if ($ok == true) {
     }
 
     echo "New Gamer has been saved!";
-    //header('location:view-gamers.php');
-    header('location:gamer.php'. (($MADEITHERE)? "?made=$final_name":""));
+    header('location:view-gamers.php');
 }else{
     echo "Gamer has not been saved. Please check input was valid.";
     header('location:gamer.php');
